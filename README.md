@@ -104,7 +104,7 @@ you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And de
 
 **Pre installation needed:
 **
-Checks the Program Flow if you think Tools in the command not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
+Checks the Program Flow if you think Tools binaries not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
 Installation may be available in future version.
 
 Wordlist:
