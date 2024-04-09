@@ -11,7 +11,7 @@ YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN 
 **IMP NOTICE:
 **
 The project in Beta mode, and Github does not allow the large file upload, for free accounts.
-Here is the link of Tools Folder, you can download it here and extract it in your psavvy folder. Enjoy the Tools
+Here is the link of Tools Folder, you can download it  and extract it in your psavvy folder. Enjoy the Tools
 https://drive.google.com/file/d/1Adzk542Q96RjybP3K891kP8_oUneS79-/view?usp=sharing
 In Coming future you will see the installation scripts....
 
