@@ -8,6 +8,11 @@ Programmable_Security_Assessment_&_Vulnerabilities_Verification_System (PSAVVY) 
 
 YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation container script.
 
+**USAGE:
+**
+
+python3 psavvy.py -d target.com
+
 **IMP NOTICE:
 **
 TOOLS TO DOWNLOAD
