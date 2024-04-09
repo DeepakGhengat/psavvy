@@ -1,23 +1,23 @@
 # psavvy
 Programmable_Security_Assessment_&_Vulnerabilities_Verification_System (PSAVVY) framework designed for Recon, vulnerabilities scanning and exploitation. It features a comprehensive list of Python3 Lambda Functions, equipped with terminal commands, allowing for targeted scanning and autonomous exploitation. Pronounce as SAVVY.
 
-YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation scripts
+YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation container script.
 
 If you know the python3 and you are familiar with Linux OS, you are beginner or intermediate programmer; you can modify it and make it your own PSAVVY. This program is that flexible.
 Note: 
-Open the main.py file and understand the program flow.
+Open the psavvy.py file and understand the program flow.
 The Project is in Beta Mode, Hope many researcher will like it. And you will get more new future Updates.
 
 **Why I made PSAVVY?
 **
 
-The programs available online they are bulky and if you make changes in them the code get break and it is become so frustrated to patch the code of Tool and run them. That’s why in PSAVVY you find only one main.py file in which you can do whatever you like..
+The programs available online they are bulky and if you make changes in them the code get break and it is become so frustrated to patch the code of Tool and run them. That’s why in PSAVVY you find only one psavvy.py file in which you can do whatever you like..
 
-**Comment the line in main.py file you don’t want to use or tools and uncomment them whenever you need them.
+**Comment the line in psavvy.py file you don’t want to use or tools and uncomment them whenever you need them.
 **
 
 Why I used the lambda Function.
-The python3 lambda Function is love… That’s why…..If you open main.py you will the find list of lambda function, anyone can edit and modify the program, make their own a vulnerabilities scanner and exploitation tool.
+The python3 lambda Function is love… That’s why…..If you open psavvy.py you will the find list of lambda function, anyone can edit and modify the program, make their own a vulnerabilities scanner and exploitation tool.
 If you want to modify the program, before that please read…
 
 https://realpython.com/python-lambda/#:~:text=The%20Python%20lambda%20function%20could,n%20set%20at%20definition%20time.
@@ -54,7 +54,7 @@ Advantages of Using Lambda Functions
 
 **Do not forget to add the comma , (after every new command you add). Shown above.
 **
-If you want to add some functionalities and Commands to main.py file. Follow the below rules and add them.
+If you want to add some functionalities and Commands to psavvy.py file. Follow the below rules and add them.
 
 ****Syntax:**
 **
@@ -63,7 +63,7 @@ If you want to add some functionalities and Commands to main.py file. Follow the
 
 **Note**: The tools lies in the $Tools Directory If you want add some extra tools operations remember the directory structure then add the commands. Add your new Tool into the $Tools Directory, Make a Linux terminal Tool based command you want.
 
-**Note:** "{domain}" is a placeholder for the website address (e.g., xyz.com), if we create specific linux terminal based tool commands, add them in lambda function in main.py program file.
+**Note:** "{domain}" is a placeholder for the website address (e.g., xyz.com), if we create specific linux terminal based tool commands, add them in lambda function in psavvy.py program file.
 
 for eg: (bash Tools/SubEnum/subenum.sh -d {domain} -r –p).
 
@@ -79,13 +79,13 @@ BURP_COLLAB_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
 BLIND_XSS_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
-you can declare the variable name in the config.txt file you want to use, you can give any name to the variable you want, and declare it in your tools commands in program (main.py) if needed, as shown below.
+you can declare the variable name in the config.txt file you want to use, you can give any name to the variable you want, and declare it in your tools commands in program (psavvy.py) if needed, as shown below.
 
 For eg:
 ![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/27a1d77d-357a-4f06-8986-b446fa396291)
 
 If you can see the declaration {get_url_from_config(args.config, 'BURP_COLLAB_URL')}.
-you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And declare with any tools you want and if they required the parameter of like that or use as linux terminal command of Tools for eg: ssrf.py -d xyz.com -b BURPCOLLABORATOR_ADDRESS and copy paste in the lambda execute_command function as shown above. Please try to run the main.py file with all the recon tools after all the subdomains and results get collected which is the essential part to run the container, after that you can comment others Lines and  check the specific Vulnerability scanner and Exploitation Tools.
+you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And declare with any tools you want and if they required the parameter of like that or use as linux terminal command of Tools for eg: ssrf.py -d xyz.com -b BURPCOLLABORATOR_ADDRESS and copy paste in the lambda execute_command function as shown above. Please try to run the psavvy.py file with all the recon tools after all the subdomains and results get collected which is the essential part to run the container, after that you can comment others Lines and  check the specific Vulnerability scanner and Exploitation Tools.
 
 **Note:
 **
@@ -97,7 +97,7 @@ Installation may be available in future version.
 
 ** OS Support:
 **
-Only Linux for Now(But if you are really a hacker you can modify main.py file for your operating system).
+Only Linux for Now(But if you are really a hacker you can modify psavvy.py file for your operating system).
 
 If you are facing any problem, please mention them in issues section.
 
