@@ -99,6 +99,8 @@ Installation may be available in future version.
 **
 Only Linux for Now(But if you are really a hacker you can modify main.py file for your operating system).
 
+If you are facing any problem, please mention them in issues section.
+
 
 
 
