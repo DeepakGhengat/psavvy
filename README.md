@@ -109,7 +109,7 @@ Only Linux for Now(But if you are really a hacker you can modify psavvy.py file 
 
 If you are facing any problem, please mention them in issues section.
 
-
+Thanks to All Cybersecurity Researcher, Big Inspiration for Project 💖
 
 
 
