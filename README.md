@@ -11,7 +11,9 @@ YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN 
 **USAGE:
 **
 
-python3 psavvy.py -d target.com
+sudo python3 psavvy.py -d target.com
+
+
 
 **IMP NOTICE:
 **
