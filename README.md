@@ -8,6 +8,12 @@ Programmable_Security_Assessment_&_Vulnerabilities_Verification_System (PSAVVY) 
 
 YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation container script.
 
+**IMP NOTICE:
+**
+The project in Beta mode, and Github does not allow the large file upload, for accounts.
+Here is the link of Tools Folder, you can download it here and extract it in your psavvy folder. Enjoy the Tools
+https://drive.google.com/file/d/1Adzk542Q96RjybP3K891kP8_oUneS79-/view?usp=sharing
+
 If you know the python3 and you are familiar with Linux OS, you are beginner or intermediate programmer; you can modify it and make it your own PSAVVY. This program is that flexible.
 Note: 
 Open the psavvy.py file and understand the program flow.
