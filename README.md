@@ -100,6 +100,9 @@ you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And de
 Checks the Program Flow if you think Tools in the command not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
 Installation may be available in future version.
 
+Wordlist:
+You can make a changes in the wordlists like Add new payloads, new words, and new DNS resolver, Do not rename the wordlists.
+
 ** OS Support:
 **
 Only Linux for Now(But if you are really a hacker you can modify psavvy.py file for your operating system).
