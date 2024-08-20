@@ -1,2 +1,2 @@
-BURP_COLLAB_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
+BURP_COLLAB_URL=https://vmldhqeiqi5bja6u6gmvd3dmedk48vwk.oastify.com
 BLIND_XSS_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
