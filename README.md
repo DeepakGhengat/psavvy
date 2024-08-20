@@ -8,34 +8,35 @@ Programmable_Security_Assessment_&_Vulnerabilities_Verification_System (PSAVVY) 
 
 YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation container script.
 
+**Why I made PSAVVY?
+**
+
+The programs available online they are bulky and if you make changes in them the code get break and it is become so frustrated to patch the code of Tool and run them. That’s why in PSAVVY you find only one psavvy.py file in which you can do whatever you like..
+
+**Comment the lines in psavvy.py file if you don’t want to use the oneliners or tools, and uncomment them whenever you need it.
+**
+
 **USAGE:
 **
 
 sudo python3 psavvy.py -d target.com
 
 
-
-**IMP NOTICE:
+**INSTALLATION NOTICE:
 **
-TOOLS TO DOWNLOAD
-The project in Beta mode, and Github does not allow the large file upload, for free accounts.
-Here is the link of Tools Folder, you can download it  and extract it in your psavvy folder. Enjoy the Tools
-https://drive.google.com/file/d/1Adzk542Q96RjybP3K891kP8_oUneS79-/view?usp=sharing
+Use SUDO to install all the tools in the Tools/ Directory
+1. sudo apt-get update && sudo apt-get install -y dos2unix (Only use if needed)
+2. dos2unix install.sh (Only use if needed)
+3. sudo bash install.sh
+4. Know your tools, you can visit the psavvy.py or install.sh file to get a broad view on the tools installed in Tools/ Directory or as a binary into your Linux based Distribution
+5. Know your tools, is necessary to add some APIs keys to them seperately to so they can run in a proper manner, why the keys have to be seperate, if needed the tools can removed or update that's why. It makes jobs easy.
+6. **Config.txt:**
 
-In Coming future you will see the installation scripts....
+Replace your urls in the config file DO NOT FORGET.
 
-If you know the python3 and you are familiar with Linux OS, you are beginner or intermediate programmer; you can modify it and make it your own PSAVVY. This program is that flexible.
-Note: 
-Open the psavvy.py file and understand the program flow.
-The Project is in Beta Mode, Hope many researcher will like it. And you will get more new future Updates.
+BURP_COLLAB_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
-**Why I made PSAVVY?
-**
-
-The programs available online they are bulky and if you make changes in them the code get break and it is become so frustrated to patch the code of Tool and run them. That’s why in PSAVVY you find only one psavvy.py file in which you can do whatever you like..
-
-**Comment the line in psavvy.py file you don’t want to use or tools and uncomment them whenever you need them.
-**
+BLIND_XSS_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
 Why I used the lambda Function.
 The python3 lambda Function is love… That’s why…..If you open psavvy.py you will the find list of lambda function, anyone can edit and modify the program, make their own a vulnerabilities scanner and exploitation tool.
@@ -92,13 +93,7 @@ To save the output we have the $output directory you can use the Linux basics te
 **for eg:**
 ![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/14f23f95-d18d-43ea-a6e2-4a3461bbf8e7)
 
-**Config.txt:**
 
-Replace your urls in the config file DO NOT FORGET.
-
-BURP_COLLAB_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
-
-BLIND_XSS_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
 you can declare the variable name in the config.txt file you want to use, you can give any name to the variable you want, and declare it in your tools commands in program (psavvy.py) if needed, as shown below.
 
@@ -110,11 +105,6 @@ you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And de
 
 **Note:
 **
-
-**Pre installation needed:
-**
-Checks the Program Flow if you think Tools binaries not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
-Installation may be available in future version.
 
 Wordlist:
 You can make a changes in the wordlists like Add new payloads, new words, and new DNS resolver, Do not rename the wordlists.
