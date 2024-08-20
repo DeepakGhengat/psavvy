@@ -8,6 +8,22 @@ Programmable_Security_Assessment_&_Vulnerabilities_Verification_System (PSAVVY) 
 
 YOU LOVE ONELINERs, YOU KNOW HOW THE ONELINERs WORKS AND YOU LOVE AUTOMATION IN BUGBOUNTY AND PENTESTING THIS TOOL IS FOR YOU… It is your personal automation container script.
 
+**USAGE:
+**
+
+sudo python3 psavvy.py -d target.com
+
+
+
+**IMP NOTICE:
+**
+TOOLS TO DOWNLOAD
+The project in Beta mode, and Github does not allow the large file upload, for free accounts.
+Here is the link of Tools Folder, you can download it  and extract it in your psavvy folder. Enjoy the Tools
+https://drive.google.com/file/d/1Adzk542Q96RjybP3K891kP8_oUneS79-/view?usp=sharing
+
+In Coming future you will see the installation scripts....
+
 If you know the python3 and you are familiar with Linux OS, you are beginner or intermediate programmer; you can modify it and make it your own PSAVVY. This program is that flexible.
 Note: 
 Open the psavvy.py file and understand the program flow.
@@ -97,7 +113,7 @@ you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And de
 
 **Pre installation needed:
 **
-Checks the Program Flow if you think Tools in the command not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
+Checks the Program Flow if you think Tools binaries not installed on the OS please install them. Other Tools you can find on the $Tools/ Directory. Auto
 Installation may be available in future version.
 
 Wordlist:
