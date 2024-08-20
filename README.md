@@ -25,6 +25,7 @@ sudo python3 psavvy.py -d target.com
 **INSTALLATION NOTICE:
 **
 
+ENJOY AUTO INSTALLATION ON YOUR SYSTEM AND EARN GOOD AMOUNTS BY USING PSAVVY.
 Use SUDO to install all the tools in the Tools/ Directory
 1. sudo apt-get update && sudo apt-get install -y dos2unix (Only use if needed)
 2. dos2unix install.sh (Only use if needed)
@@ -112,7 +113,7 @@ You can make a changes in the wordlists like Add new payloads, new words, and ne
 
 ** OS Support:
 **
-Only Linux for Now(But if you are really a hacker you can modify psavvy.py file for your operating system).
+Only Linux Distribution Except the ARCH LINUX for Now(But if you are really a hacker you can modify psavvy.py file for your operating system).
 
 If you are facing any problem, please mention them in issues section.
 
