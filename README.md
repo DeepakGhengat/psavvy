@@ -40,6 +40,15 @@ BURP_COLLAB_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
 BLIND_XSS_URL=https://webhook.site/42d36503-e6c7-4a06-a290-5b0bc6d6f64a
 
+you can declare the variable name in the config.txt file you want to use, you can give any name to the variable you want, and declare it in your tools commands in program (psavvy.py) if needed, as shown below.
+
+For eg:
+![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/27a1d77d-357a-4f06-8986-b446fa396291)
+
+If you can see the declaration {get_url_from_config(args.config, 'BURP_COLLAB_URL')}.
+you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And declare with any tools you want and if they required the parameter of like that or use as linux terminal command of Tools for eg: ssrf.py -d xyz.com -b BURPCOLLABORATOR_ADDRESS and copy paste in the lambda execute_command function as shown above. Please try to run the psavvy.py file with all the recon tools after all the subdomains and results get collected which is the essential part to run the container, after that you can comment others Lines and  check the specific Vulnerability scanner and Exploitation Tools.
+
+
 Why I used the lambda Function.
 The python3 lambda Function is love… That’s why…..If you open psavvy.py you will the find list of lambda function, anyone can edit and modify the program, make their own a vulnerabilities scanner and exploitation tool.
 If you want to modify the program, before that please read…
@@ -85,9 +94,9 @@ If you want to add some functionalities and Commands to psavvy.py file. Follow t
 ![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/7327f527-a61b-4a49-a418-8d05d5e9a32a)
 
 
-**Note**: The tools lies in the $Tools Directory If you want add some extra tools operations remember the directory structure then add the commands. Add your new Tool into the $Tools Directory, Make a Linux terminal Tool based command you want.
+**Note**: The tools lies in the $Tools Directory If you want add some extra tools Add them into the install.sh file and run it. Remember the directory structure and add the commands. Add your new Tool into the install.sh bash script and It will get installed into the $Tools Directory.
 
-**Note:** "{domain}" is a placeholder for the website address (e.g., xyz.com), if we create specific linux terminal based tool commands, add them in lambda function in psavvy.py program file.
+**Note:** "{domain}" is a placeholder for the website address (e.g., xyz.com), if we create specific linux terminal based tool commands or a so called oneliners, add them in lambda function in psavvy.py program file so they can run in a program.
 
 for eg: (bash Tools/SubEnum/subenum.sh -d {domain} -r –p).
 
@@ -96,14 +105,6 @@ To save the output we have the $output directory you can use the Linux basics te
 ![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/14f23f95-d18d-43ea-a6e2-4a3461bbf8e7)
 
 
-
-you can declare the variable name in the config.txt file you want to use, you can give any name to the variable you want, and declare it in your tools commands in program (psavvy.py) if needed, as shown below.
-
-For eg:
-![image](https://github.com/DeepakGhengat/psavvy/assets/50538177/27a1d77d-357a-4f06-8986-b446fa396291)
-
-If you can see the declaration {get_url_from_config(args.config, 'BURP_COLLAB_URL')}.
-you can use the syntax {get_url_from_config(args.config, VARIABLE NAME)}. And declare with any tools you want and if they required the parameter of like that or use as linux terminal command of Tools for eg: ssrf.py -d xyz.com -b BURPCOLLABORATOR_ADDRESS and copy paste in the lambda execute_command function as shown above. Please try to run the psavvy.py file with all the recon tools after all the subdomains and results get collected which is the essential part to run the container, after that you can comment others Lines and  check the specific Vulnerability scanner and Exploitation Tools.
 
 **Note:
 **
