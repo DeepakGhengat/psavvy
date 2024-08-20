@@ -24,6 +24,9 @@ sudo python3 psavvy.py -d target.com
 
 **INSTALLATION NOTICE:
 **
+git clone https://github.com/DeepakGhengat/psavvy.git
+
+On your Linux System.
 
 ENJOY AUTO INSTALLATION ON YOUR SYSTEM AND EARN GOOD AMOUNTS BY USING PSAVVY.
 Use SUDO to install all the tools in the Tools/ Directory
