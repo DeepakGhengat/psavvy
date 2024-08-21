@@ -225,49 +225,49 @@ rm -rf Tools/bulkssrf-0.1.2-x86_64-unknown-linux-musl/
 # Setting up Dependencies
 # Setting up SubEnum
 echo "Setting up SubEnum."
-cd "Tools/SubEnum" || exit
+cd "Tools/SubEnum/" || exit
 chmod +x setup.sh
 ./setup.sh
 cd ../../  # Move back to the Tools directory
 
 # Setting up ParamSpider
 echo "Setting up ParamSpider."
-cd "Tools/ParamSpider" || exit
+cd "Tools/ParamSpider/" || exit
 pip install .
 cd ../../  # Move back to the Tools directory
 
 # Setting up gitGraber
 echo "Setting up gitGraber."
-cd "Tools/gitGraber" || exit
+cd "Tools/gitGraber/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
 # Setting up GitDorker
 echo "Setting up GitDorker."
-cd "Tools/GitDorker" || exit
+cd "Tools/GitDorker/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
 # Setting up Oralyzer
 echo "Setting up Oralyzer."
-cd "Tools/Oralyzer" || exit
+cd "Tools/Oralyzer/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
 # Setting up Nettacker
 echo "Setting up Nettacker."
-cd "Tools/Nettacker" || exit
+cd "Tools/Nettacker/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
 # Setting up subzy
-cd "Tools/subzy" || exit
+cd "Tools/subzy/" || exit
 go build
 cd ../../   # Move back to the Tools directory
 
 # Setting up SSTImap
 echo "Setting up SSTImap."
-cd "Tools/autossrf" || exit
+cd "Tools/autossrf/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
@@ -277,26 +277,33 @@ pip3 install xsrfprobe
 
 # Setting up SSTImap
 echo "Setting up SSTImap."
-cd "Tools/SSTImap" || exit
+cd "Tools/SSTImap/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
 # Setting up XSStrike
 echo "Setting up XSStrike."
-cd "Tools/XSStrike" || exit
+cd "Tools/XSStrike/" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
+# Setting up massdns
+echo "Setting up Massdns."
+cd "Tools/massdns/" || exit
+make
+cd bin/
+sudo mv massdns /usr/bin/massdns
+cd ../../../../  # Move back to the Tools directory
 
 # Setting up Subhunter
 echo "Setting up Subhunter."
-cd "Tools/Subhunter" || exit
+cd "Tools/Subhunter/" || exit
 go build subhunter.go
 cd ../../  # Move back to the Tools directory
 
 # Setting up gf
 echo "Setting up gf."
-cd "Tools/gf" || exit
+cd "Tools/gf/" || exit
 go build main.go
 sudo mv main /usr/bin/gf
 cd ../../  # Move back to the Tools directory
@@ -310,7 +317,7 @@ cd ../../  # Move back to the Tools directory
 
 # Setting up CVESeeker
 echo "Setting up CVESeeker"
-cd "Tools/CVESeeker" || exit
+cd "Tools/CVESeeker/" || exit
 pip3 install -r requirements.txt
 pip3 install colorama
 cd ../../  # Move back to the Tools directory
@@ -321,11 +328,3 @@ unzip Tools/interactsh-client_1.2.0_linux_386.zip
 sudo mv Tools/interactsh-client /usr/bin/interactsh-client
 rm Tools/interactsh-client_1.2.0_linux_386.zip
 cd ../../  # Move back to the Tools directory
-
-# Setting up massdns
-echo "Setting up Massdns."
-cd "Tools/massdns" || exit
-make
-cd bin/
-sudo mv massdns /usr/bin/massdns
-cd ../../../../  # Move back to the Tools directory
