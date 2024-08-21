@@ -287,13 +287,6 @@ cd "Tools/XSStrike" || exit
 pip3 install -r requirements.txt
 cd ../../  # Move back to the Tools directory
 
-# Setting up massdns
-echo "Setting up Massdns."
-cd "Tools/massdns" || exit
-make
-cd bin/
-sudo mv massdns /usr/bin/massdns
-cd ../../../../  # Move back to the Tools directory
 
 # Setting up Subhunter
 echo "Setting up Subhunter."
@@ -328,3 +321,11 @@ unzip Tools/interactsh-client_1.2.0_linux_386.zip
 sudo mv Tools/interactsh-client /usr/bin/interactsh-client
 rm Tools/interactsh-client_1.2.0_linux_386.zip
 cd ../../  # Move back to the Tools directory
+
+# Setting up massdns
+echo "Setting up Massdns."
+cd "Tools/massdns" || exit
+make
+cd bin/
+sudo mv massdns /usr/bin/massdns
+cd ../../../../  # Move back to the Tools directory
