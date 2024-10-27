@@ -35,7 +35,7 @@ def main():
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
 
-        # Define commands for domain enumeration
+        # Define Commands
         commands = [
 
             ("SubDomain Enumeration", lambda domain, output_dir: execute_command(f"shuffledns -d {domain} -r dns-resolvers.txt -w subdomains-top1million-110000.txt -mode bruteforce | anew subs.txt")),
