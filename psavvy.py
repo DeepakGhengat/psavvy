@@ -37,8 +37,9 @@ def main():
 
         # Define Commands
         commands = [
-
-            ("SubDomain Enumeration", lambda domain, output_dir: execute_command(f"shuffledns -d {domain} -r dns-resolvers.txt -w subdomains-top1million-110000.txt -mode bruteforce | anew subs.txt")),
+            
+            ("SubDomain Enumeration",lambda domain, output_dir: execute_command(f"bash Tools/SubEnum/subenum.sh -d {domain} -r -p")),
+            ("", lambda domain, output_dir: execute_command(f"shuffledns -d {domain} -r dns-resolvers.txt -w subdomains-top1million-110000.txt -mode bruteforce | anew subs.txt")),
             ("", lambda domain, output_dir: execute_command("cat finalsubs.txt | dnsx -silent | httpx -silent| anew filterDNS.txt")),
             ("", lambda domain, output_dir: os.rename("filterDNS.txt", os.path.join(output_dir, "filterDNS.txt"))),
             ("", lambda domain, output_dir: execute_command(f"sed 's/https:\/\///' output/filterDNS.txt | anew > output/nonhttpsfilterDNS.txt")),
