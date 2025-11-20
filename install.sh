@@ -386,3 +386,39 @@ else
 fi
 
 echo "All setup tasks completed."
+
+# =============================================================================
+# AI Dependencies Installation
+# =============================================================================
+echo ""
+echo "========================================"
+echo "  Installing AI Dependencies for PSAVVY AI"
+echo "========================================"
+
+# Install Python AI packages
+pip3 install --break-system-packages anthropic openai requests pyyaml 2>/dev/null || \
+pip3 install anthropic openai requests pyyaml
+
+echo ""
+echo "[+] AI dependencies installed successfully"
+echo ""
+echo "========================================"
+echo "  PSAVVY Installation Complete!"
+echo "========================================"
+echo ""
+echo "For AI features, configure your API keys in config.yaml:"
+echo "  - ANTHROPIC_API_KEY (Claude)"
+echo "  - PERPLEXITY_API_KEY"
+echo "  - OPENAI_API_KEY (ChatGPT)"
+echo ""
+echo "Usage:"
+echo "  # Traditional scan"
+echo "  sudo python3 psavvy.py -d target.com"
+echo ""
+echo "  # AI-powered scan with analysis"
+echo "  sudo python3 psavvy_ai.py -d target.com --ai-analyze"
+echo ""
+echo "  # AI-powered scan with full report"
+echo "  sudo python3 psavvy_ai.py -d target.com --ai-report"
+echo ""
+echo "See AI_README.md for full AI features documentation."

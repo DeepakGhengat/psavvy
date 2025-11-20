@@ -1,0 +1,96 @@
+# PSAVVY AI Configuration
+# Copy this file to config.yaml and fill in your API keys
+
+# =============================================================================
+# AI PROVIDER API KEYS
+# =============================================================================
+
+# Anthropic Claude API Key
+# Get your key at: https://console.anthropic.com/
+# Best for: Deep analysis, reasoning, exploitation guidance
+ANTHROPIC_API_KEY: ""
+
+# Perplexity API Key
+# Get your key at: https://www.perplexity.ai/settings/api
+# Best for: Real-time research, CVE lookups, exploit searches
+PERPLEXITY_API_KEY: ""
+
+# OpenAI ChatGPT API Key
+# Get your key at: https://platform.openai.com/api-keys
+# Best for: Payload generation, report writing, creative tasks
+OPENAI_API_KEY: ""
+
+# =============================================================================
+# CALLBACK URLS FOR TESTING
+# =============================================================================
+
+# Burp Collaborator URL for SSRF/OOB testing
+# Get from Burp Suite Professional or use interactsh
+BURP_COLLAB_URL: "https://your-collaborator.oastify.com"
+
+# Blind XSS Callback URL
+# Use webhook.site, xsshunter, or your own server
+BLIND_XSS_URL: "https://webhook.site/your-unique-id"
+
+# =============================================================================
+# AI MODEL SETTINGS (Optional)
+# =============================================================================
+
+ai_settings:
+  # Claude model selection
+  claude_model: "claude-sonnet-4-20250514"
+
+  # Perplexity model selection
+  perplexity_model: "llama-3.1-sonar-large-128k-online"
+
+  # OpenAI model selection
+  openai_model: "gpt-4-turbo-preview"
+
+  # Default max tokens for responses
+  max_tokens: 4096
+
+  # Temperature for creative tasks (0.0-1.0)
+  temperature: 0.7
+
+# =============================================================================
+# SCAN SETTINGS (Optional)
+# =============================================================================
+
+scan_settings:
+  # Number of parallel threads
+  threads: 10
+
+  # Request timeout in seconds
+  timeout: 30
+
+  # Delay between requests (rate limiting)
+  delay: 0
+
+  # User agent for requests
+  user_agent: "PSAVVY-AI/2.0"
+
+# =============================================================================
+# REPORT SETTINGS (Optional)
+# =============================================================================
+
+report_settings:
+  # Report format (markdown, html, pdf)
+  format: "markdown"
+
+  # Include raw scan outputs in report
+  include_raw: true
+
+  # Company name for report header
+  company_name: "Your Company"
+
+  # Assessor name
+  assessor: "Security Team"
+
+# =============================================================================
+# GITHUB TOKENS (For GitHub Recon Tools)
+# =============================================================================
+
+github_settings:
+  # GitHub personal access token for gitGraber and GitDorker
+  # Create at: https://github.com/settings/tokens
+  github_token: ""
